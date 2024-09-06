@@ -1,0 +1,74 @@
+body{
+    font-family: "Comic Sans MS";  
+    background-image: url(../img/squidward-handsome.gif);
+}
+
+.container{
+    border: 2px solid black;
+    height: 700px;
+    width: 700px;
+    background-color: #61E294;    
+    margin: auto;
+   
+    /*content in website stays centered*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.header{    
+    border: 2px solid black;
+    height: 50px;
+    width: 698px;
+    margin: auto;
+    
+    text-align: center;
+    background: #BD93D8;
+}
+
+.header h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.headshot img{
+    /*img has to be displayed as block to be able to use margin: auto;*/
+    display: block;
+    margin: auto;
+    border: 10px solid #FFD700;
+    height: 240px;
+    width: 300px;
+}
+.content{
+    text-align: center ;
+    padding: 10px;
+}
+
+.content h1{
+    font-size: large;
+    font-weight: bold;
+}
+
+.content p{
+    padding: 6px;
+}
+
+.editHS h1{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.editHS video{    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px;
+    position: absolute;    
+    height: 235px;
+    width: 700px;
+} 
